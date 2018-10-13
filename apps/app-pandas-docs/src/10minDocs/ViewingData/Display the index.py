@@ -13,10 +13,13 @@ print("df.describe:")
 print(df.describe())
 
 # Transposing your data
+print("\nTransposing your data:")
 print(df.T)
 
 # Sorting by an axis
+print("\nSorting by an axis:")
 print(df.sort_index(axis=1, ascending=False))
 
 # Sorting by values
+print("\nSorting by values:")
 print(df.sort_values(by='B'))
